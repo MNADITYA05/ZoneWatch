@@ -1,0 +1,15 @@
+{
+    "video_path": "3452304387-preview.mp4",
+    "model_path": "yolov5s.pt",
+    "confidence": 0.5,
+    "target_classes": [0],
+    "grid_rows": 1,
+    "grid_cols": 2,
+    "segmentation_method": "intensity_weighted",
+    "roi": [100, 100, 500, 400],
+    "iou_threshold": 0.3,
+    "max_missed_frames": 30,
+    "output_csv": "output/metrics.csv",
+    "output_video": "",
+    "display": true
+}
