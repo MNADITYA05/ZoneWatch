@@ -229,7 +229,7 @@ Configuration via JSON file. Fields override when also passed as CLI args.
 
 ## 🎥 Demo
 
-<video src="3452304387-preview.mp4" controls width="100%"></video>
+[Download / View demo video](./3452304387-preview.mp4)
 
 ---
 
