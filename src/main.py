@@ -98,7 +98,7 @@ def main():
             annotated = visualizer.draw_roi(annotated, [(pts[i][0][0], pts[i][0][1]) for i in range(len(pts))])
 
             if cfg.display:
-                cv2.imshow("Area Mapping & Segmentation", annotated)
+                cv2.imshow("ZoneWatch", annotated)
                 if cv2.waitKey(1) & 0xFF == ord("q"):
                     break
 

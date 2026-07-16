@@ -1,4 +1,4 @@
-# AREA MAPPING AND SEGMENTATION
+# ZoneWatch
 
 > **One-liner:** A modular computer vision pipeline that detects people in video, segments the frame by visual content distribution, tracks identities across frames, and outputs per-segment dwell-time metrics to CSV.
 
@@ -35,7 +35,7 @@ Video-based spatial analysis often relies on static grid overlays that ignore th
 
 ## 🎯 Our Solution & Purpose
 
-**Area Mapping & Segmentation** is an extensible Python pipeline that detects people in video, divides the frame into area-weighted segments (based on pixel intensity or geometric rules), tracks each person's identity across frames via IoU overlap matching, and exports structured per-segment dwell-time data to CSV.
+**ZoneWatch** is an extensible Python pipeline that detects people in video, divides the frame into area-weighted segments (based on pixel intensity or geometric rules), tracks each person's identity across frames via IoU overlap matching, and exports structured per-segment dwell-time data to CSV.
 
 It solves the above by:
 1. **Modular pipeline stages** — Each stage (detect, track, segment, analyze, visualize) is an independent, testable module with typed interfaces.
