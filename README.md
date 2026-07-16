@@ -227,11 +227,9 @@ Configuration via JSON file. Fields override when also passed as CLI args.
 
 ---
 
-## 🖼 Screenshots
+## 🎥 Demo
 
-| Annotated Frame |
-|---|
-| *Screen capture showing bounding boxes, vertical segment split line, and segment labels overlaid on the video. (Add actual image to `docs/assets/`)* |
+<video src="3452304387-preview.mp4" controls width="100%"></video>
 
 ---
 
